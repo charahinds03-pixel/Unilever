@@ -1,0 +1,24 @@
+gap_id,slide,missing,where_looked,suggested_fix,status
+G001,all,"brief.md (six-slide outline, five fixes, regional panel framework) is not in the repo","Unilever repo, other repos in session, Google Drive search",Add brief.md to the repo root before Phase 3,open
+G002,all,No source downloaded: sandbox network policy returns 403 for every source host,"curl, Python requests, WebFetch from this environment","Allow the hosts in data/source_candidates.csv (or full network access) in the environment settings, then run python -m src.fetch",open
+G003,1,Q3 2026 trading statement not yet published,Web search,Fetch after release (search results cite 28 Oct 2026; unconfirmed),open
+G004,1,Unilever's own press release confirming Ice Cream demerger completion,Web search of unilever.com,Use the ARA 2025 discontinued-operations note (C001) as primary; BMV filing copy (C013) and Reuters (C014) as corroboration,open
+G005,1,Accounting treatment of Foods after the McCormick agreement (discontinued / held for sale?) in H1 2026,Web search; SEC 6-K snippet mentions only Ice Cream restatement,Read C011 (6-K) and C010 once downloaded,open
+G006,1,US turnover figure (country-level) in FY2025 segment note,Web search; not visible in snippets,Read segment note in C001/C002,open
+G007,2,"2026 ICLG and Chambers product liability chapters for India, Brazil, Indonesia, Mexico, South Africa",Web search; only China (Chambers 2026) and India (ICLG via AZB) confirmed,"Fetch landing pages; if a 2026 chapter is missing, use the latest edition and label its year",open
+G008,2,Which RoW countries ICLG Class and Group Actions 2026 covers (13 jurisdictions),Web search,Fetch ICLG landing page,open
+G009,2,Single CAT register page for collective proceedings,Web search,Use CAT judgments filtered to s47B; cross-check with Simmons tracker (C025),open
+G010,3,Judicial Hellholes reports as PDF,Web search; judicialhellholes.org shows web executive summaries only,Save the HTML executive summary pages (C050 to C052),open
+G011,3,JPML October 2026 pending MDL report,Web search; August 2026 is latest confirmed,Resolve latest from JPML landing (C053); fall back to C054,open
+G012,3;5,Marathon Strategies full 2026 report (2025 verdicts by state and case type),marathonstrategies.com landing page (download form),Manual download to sources/manual/,needs-manual
+G013,3;5,Swiss Re sigma newer than 4/2024 on US litigation costs,Web search,Use sigma 4/2024 with its as-of date; use 2025 Verdicts on trial article for juror sentiment,open
+G014,4,Duane Morris full Class Action Review 2026; BIPA settlement totals,Web search; press release and blog only,"Fetch press release; if full Review needs a form, manual download",open
+G015,4,FDA notice for the 2022 Suave aerosol antiperspirant recall,Web search (local TV coverage only),Search FDA recalls archive once network is open,open
+G016,4,Court records: D. Conn. dry shampoo benzene class actions; N.D. Ill. Suave antiperspirant settlement,Web search; only HarrisMartin and Law360 (paywalled) and plaintiff-firm pages,"Use CourtListener (free, no login) if you approve; otherwise manual download",needs-decision
+G017,4,Any PFAS lawsuit naming Unilever,Web search,Treat as not found; check 20-F contingent liabilities note (C002),open
+G018,4,"US greenwashing or labeling class action against Unilever, 2024 to 2026",Web search,Check 20-F; consider CourtListener search,open
+G019,4,Full list of Prop 65 notices naming Unilever entities,Web search found two notices only,Run AG 60-day notice search for 'Unilever' once network is open,open
+G020,4,CMA case page (gov.uk) and ACM's own release on Unilever green claims,Web search,Fetch gov.uk CMA cases list once network is open,open
+G021,4,State attorney general action against Unilever since 2020,Web search (only 2015 Orange County DA and 2000 NY AG found),Theme 5 may need an industry example rather than a Unilever one,open
+G022,4,Any BIPA suit naming Unilever,Web search,"Use industry example (cosmetics virtual try-on suits) and label it as industry, not Unilever",open
+G023,5,"Verdict data split by line: personal care chemical exposure, food and labeling, fleet/auto, premises",Marathon press coverage gives product liability and premises totals only,Needs the full Marathon report (G012),open
